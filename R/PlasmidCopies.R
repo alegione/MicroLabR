@@ -13,11 +13,11 @@
 #' @examples
 #' # Calculate values with the total length
 #' PlasmidCopies(totalLength = 3460, weight = 5.9)
-#' # 1555867928
+#' # 1555904295
 #'
 #' # Calculate values with the individual plasmid and insert lengths
 #' PlasmidCopies(plasmidLength = 3000, insertLength = 460, weight = 5.9)
-#' # 1555867928
+#' # 1555904295
 #'
 PlasmidCopies <- function(plasmidLength, insertLength, totalLength, weight) {
 

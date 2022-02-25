@@ -24,10 +24,10 @@ Calculate the copies of a vector plasmid based on insert and plasmid length. Not
 \examples{
 # Calculate values with the total length
 PlasmidCopies(totalLength = 3460, weight = 5.9)
-# 1555867928
+# 1555904295
 
 # Calculate values with the individual plasmid and insert lengths
 PlasmidCopies(plasmidLength = 3000, insertLength = 460, weight = 5.9)
-# 1555867928
+# 1555904295
 
 }
