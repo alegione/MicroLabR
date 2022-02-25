@@ -19,13 +19,15 @@ PlasmidCopies(plasmidLength, insertLength, totalLength, weight)
 a number
 }
 \description{
-Plasmid copy calculator
+Calculate the copies of a vector plasmid based on insert and plasmid length. Note that the function uses 660 g/mol as the default DNA weight.
 }
 \examples{
+# Calculate values with the total length
 PlasmidCopies(totalLength = 3460, weight = 5.9)
-1555867928
+# 1555867928
 
+# Calculate values with the individual plasmid and insert lengths
 PlasmidCopies(plasmidLength = 3000, insertLength = 460, weight = 5.9)
-1555867928
+# 1555867928
 
 }
